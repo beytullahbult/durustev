@@ -1,0 +1,147 @@
+[
+  {
+    "id": "13f8c397-3132-4b7f-bac6-ff58497cb979",
+    "addressId": "istanbul-kucukcekmece-x-x-x",
+    "userName": "Melih ATASOYLU",
+    "rating": 3,
+    "comment": "Kötü Test yorumu 22:22",
+    "stayStart": "2025-06",
+    "stayEnd": "2025-10",
+    "createdAt": "2025-09-19T19:22:33.747Z",
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null,
+    "status": "deleted"
+  },
+  {
+    "id": "11595ed9-6a44-4af1-89e0-5ccddbaff7e4",
+    "addressId": "adana-aladag-test-test-test",
+    "userName": "test",
+    "rating": 4,
+    "comment": "test 22:24",
+    "stayStart": "2025-01",
+    "stayEnd": "2025-07",
+    "createdAt": "2025-09-19T19:24:20.404Z",
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "5685cdd8-9233-4e08-bdf9-e55624877ecc",
+    "addressId": "AKSARAY::AĞAÇÖREN::TEST MAHALLE::TEST SOKAK::TEST NO",
+    "userName": "test ad soyad",
+    "rating": 3,
+    "comment": "test yorumudur 22:39",
+    "stayStart": "2025-01",
+    "stayEnd": "2025-12",
+    "createdAt": "2025-09-19T19:39:04.464Z",
+    "address": {
+      "id": "AKSARAY::AĞAÇÖREN::TEST MAHALLE::TEST SOKAK::TEST NO",
+      "city": "AKSARAY",
+      "district": "AĞAÇÖREN",
+      "display": "AKSARAY / AĞAÇÖREN — test mahalle / test sokak / test no"
+    },
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "31f6c033-e94d-4b88-ac9a-f26bd29f4bde",
+    "addressId": "ANTALYA::KONYAALTI::TEST MAHALLE::TEST SOKAK::TEST BİNA NO",
+    "userName": "test ad soyad",
+    "rating": 2,
+    "comment": "test yorumu 22:42",
+    "stayStart": "2025-01",
+    "stayEnd": "2025-11",
+    "createdAt": "2025-09-19T19:43:00.762Z",
+    "address": {
+      "id": "ANTALYA::KONYAALTI::TEST MAHALLE::TEST SOKAK::TEST BİNA NO",
+      "city": "ANTALYA",
+      "district": "KONYAALTI",
+      "display": "ANTALYA / KONYAALTI — test mahalle / test bina no"
+    },
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "0db18273-35cc-4f47-8218-f94250d9481b",
+    "addressId": "İZMİR::ALİAĞA::TEST MAHALLE::TEST SOKAK::TEST NO",
+    "userName": "Abdurrahman DÖKMETAŞ",
+    "rating": 4,
+    "comment": "Test yorumu 23:07",
+    "stayStart": "2025-02",
+    "stayEnd": "2025-11",
+    "createdAt": "2025-09-19T20:08:01.006Z",
+    "address": {
+      "id": "İZMİR::ALİAĞA::TEST MAHALLE::TEST SOKAK::TEST NO",
+      "city": "İZMİR",
+      "district": "ALİAĞA",
+      "display": "İZMİR / ALİAĞA — test no"
+    },
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "44c706c9-4de1-4bb2-9ffb-65f5fbc03444",
+    "addressId": "AYDIN::ÇİNE::TEST MAHALLE::TEST SOKAK::TEST NO",
+    "userName": "test ad soyad",
+    "rating": 2,
+    "comment": "Test yorumudur 01:19",
+    "stayStart": "2024-01",
+    "stayEnd": "2025-08",
+    "createdAt": "2025-09-20T22:19:49.985Z",
+    "address": {
+      "id": "AYDIN::ÇİNE::TEST MAHALLE::TEST SOKAK::TEST NO",
+      "city": "AYDIN",
+      "district": "ÇİNE",
+      "display": "AYDIN / ÇİNE — test no"
+    },
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "75255d9f-0ce7-4e05-8b5c-8ff217360d5e",
+    "addressId": "NİĞDE::ÇİFTLİK::Test Mahalle::Test Sokak::Test No",
+    "userName": "Taner ACAR",
+    "rating": 4,
+    "comment": "Kiracı olduğum süre boyunca ev sahibi saygılı evine karşı ilgili biriydi. Tek sıkıntı evin tavanını 3 kere onarılmasına rağmen akıtmaya devam etti. Bu yüzden evi tutacak kişi için bu uyarım olabilir. Onun haricinde gönül rahatlığı ile ev tutulabilir.",
+    "stayStart": "2023-06",
+    "stayEnd": "2025-12",
+    "createdAt": "2025-09-20T22:51:41.715Z",
+    "address": {
+      "id": "NİĞDE::ÇİFTLİK::Test Mahalle::Test Sokak::Test No",
+      "city": "NİĞDE",
+      "district": "ÇİFTLİK",
+      "display": "NİĞDE / ÇİFTLİK"
+    },
+    "deleted": false,
+    "deletedBy": null,
+    "deletedAt": null
+  },
+  {
+    "id": "4a69ee08-ed98-449f-a95f-79e709446ffa",
+    "addressId": "BALIKESİR::EDREMİT::test mahalle::test cadde::test bina no",
+    "address": {
+      "id": "BALIKESİR::EDREMİT::test mahalle::test cadde::test bina no",
+      "city": "BALIKESİR",
+      "district": "EDREMİT",
+      "display": "BALIKESİR / EDREMİT"
+    },
+    "userName": "Test Takma Ad",
+    "rating": 5,
+    "comment": "Test yorum yapıyorum dikkate almayınız.",
+    "stayStart": "2023-01",
+    "stayEnd": "2025-03",
+    "createdAt": "2025-10-26T21:09:52.832Z",
+    "updatedAt": null,
+    "author": {
+      "id": "560ba0c5-a002-4b36-9886-5574655ae889",
+      "email": "buse.bulut@icloud.com",
+      "name": "Buse BULUT"
+    },
+    "deleted": false
+  }
+]

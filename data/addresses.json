@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bursa-osmangazi-gunestepe-1-sehit-er-serdar-askin-sokak-9",
+    "city": "BURSA",
+    "district": "OSMANGAZİ",
+    "neighborhood": "Güneştepe",
+    "street": "1. Şehit Er Serdar Aşkın Sokak",
+    "buildingNo": "9",
+    "fullText": "BURSA OSMANGAZİ Güneştepe 1. Şehit Er Serdar Aşkın Sokak 9",
+    "createdAt": "2025-09-19T17:55:52.541Z"
+  },
+  {
+    "id": "bursa-osmangazi-gunestepe-x-x",
+    "city": "BURSA",
+    "district": "OSMANGAZİ",
+    "neighborhood": "Güneştepe",
+    "street": "x",
+    "buildingNo": "x",
+    "fullText": "BURSA OSMANGAZİ Güneştepe x x",
+    "createdAt": "2025-09-19T17:56:55.707Z"
+  },
+  {
+    "id": "bursa-osmangazi-test-test-test",
+    "city": "BURSA",
+    "district": "OSMANGAZİ",
+    "neighborhood": "test",
+    "street": "test",
+    "buildingNo": "test",
+    "fullText": "BURSA OSMANGAZİ test test test",
+    "createdAt": "2025-09-19T17:57:21.526Z"
+  },
+  {
+    "id": "bursa-osmangazi-gunestepe-1-sehit-er-serdar-askin-9-f",
+    "city": "BURSA",
+    "district": "OSMANGAZİ",
+    "neighborhood": "Güneştepe",
+    "street": "1.Şehit Er Serdar Aşkın",
+    "buildingNo": "9/F",
+    "fullText": "BURSA OSMANGAZİ Güneştepe 1.Şehit Er Serdar Aşkın 9/F",
+    "createdAt": "2025-09-19T18:09:38.232Z"
+  },
+  {
+    "id": "istanbul-kucukcekmece-x-x-x",
+    "city": "İSTANBUL",
+    "district": "KÜÇÜKÇEKMECE",
+    "neighborhood": "x",
+    "street": "x",
+    "buildingNo": "x",
+    "fullText": "İSTANBUL KÜÇÜKÇEKMECE x x x",
+    "createdAt": "2025-09-19T19:22:33.743Z"
+  },
+  {
+    "id": "adana-aladag-test-test-test",
+    "city": "ADANA",
+    "district": "ALADAĞ",
+    "neighborhood": "test",
+    "street": "test",
+    "buildingNo": "test",
+    "fullText": "ADANA ALADAĞ test test test",
+    "createdAt": "2025-09-19T19:24:20.400Z"
+  }
+]
