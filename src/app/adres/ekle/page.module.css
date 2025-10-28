@@ -1,0 +1,132 @@
+.container {
+  --brand: var(--brand, #0F4C81);
+  --ink: var(--ink, #0b1320);
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 32px 24px 48px;
+  background: var(--cream, #faf7f2);
+}
+@media (max-width: 1024px) { .container { grid-template-columns: 1fr; } }
+
+/* Tek kart, genişliğe yayılıyor */
+.formCard {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.06);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  padding: 24px;
+  grid-column: 1 / -1;
+}
+
+/* Başlık ve açıklama */
+.customHead { color: var(--brand, #0F4C81); }
+.lead { color: #555; margin-bottom: 16px; }
+
+/* Form yerleşimi */
+.form { display: grid; gap: 16px; }
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 640px) { .row { grid-template-columns: 1fr; } }
+
+/* >>> Butonun görünmesi için ayrı aksiyon satırı */
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+/* Uyarılar */
+.alert {
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid;
+}
+.alertError { background: #fee2e2; border-color: #ef4444; color: #991b1b; }
+.alertOk { background: #dcfce7; border-color: #22c55e; color: #14532d; }
+
+/* Buton görünürlüğünü garanti eder (global çakışmaları ezer) */
+.primaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+
+  min-height: 42px;
+  padding: 0 16px;
+
+  background: var(--brand, #0F4C81);
+  color: #fff;
+  border: 1px solid color-mix(in oklab, var(--brand, #0F4C81), black 12%);
+  border-radius: 12px;
+
+  opacity: 1;
+  visibility: visible;
+  filter: none;
+  box-shadow: 0 6px 16px rgba(0,0,0,.06);
+}
+.primaryBtn:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+/* ============================= */
+/*     ⭐️ YILDIZLI PUANLAMA      */
+/* ============================= */
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+}
+
+.star {
+  background: transparent;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  font-size: 28px;
+  cursor: pointer;
+
+  /* Varsayılan (pasif) görünüm */
+  color: color-mix(in oklab, var(--brand, #0F4C81), black 35%);
+
+  transition: transform .08s ease, color .12s ease, text-shadow .12s ease, filter .12s ease;
+}
+.star:hover,
+.star:focus-visible {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+  outline: none;
+}
+
+.starActive {
+  color: var(--brand, #0F4C81);
+  text-shadow: 0 0 0.5px rgba(0,0,0,.15);
+  transform: scale(1.05);
+}
+
+.star:focus-visible {
+  /* Klavye erişilebilirliği */
+  box-shadow: 0 0 0 2px color-mix(in oklab, var(--brand, #0F4C81), white 40%);
+  border-radius: 6px;
+}
+
+.ratingValue {
+  margin-left: 4px;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+/* (Opsiyonel) Okunur tek satırda kaymasın diye küçük ekran ayarı */
+@media (max-width: 360px) {
+  .rating { gap: 4px; }
+  .star { font-size: 24px; }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "9853b373-f5b2-4f48-83fb-d51f8dc5ea6d",
+    "email": "beytullahblut@gmail.com",
+    "name": "Beytullah BULUT",
+    "createdAt": "2025-09-20T22:08:24.691Z",
+    "role": "user",
+    "isDisabled": true,
+    "isVerified": true,
+    "password": "Test1234!"
+  },
+  {
+    "id": "560ba0c5-a002-4b36-9886-5574655ae889",
+    "email": "buse.bulut@icloud.com",
+    "name": "Buse BULUT",
+    "createdAt": "2025-09-20T23:53:28.044Z",
+    "role": "user",
+    "isDisabled": false,
+    "isVerified": true,
+    "passwordHash": "w2bh6eFpDDF9wkdhkwWtKy3vsSQH3E8+0E5D7NehM0vFlZ1ryCHmcW0pLKKW2oGFet4y2rnzU7YfVe0dYw5T3Q==",
+    "passwordSalt": "9nx9s8OZXyAdO6ZqZXQ/9w==",
+    "passwordAlgo": "scrypt",
+    "passwordIter": 1
+  },
+  {
+    "id": "0165631f-10ff-400e-bc47-e32864c6e103",
+    "email": "beytullahbult@gmail.com",
+    "name": "Beytullah BULUT",
+    "createdAt": "2025-09-21T00:15:06.521Z",
+    "role": "admin",
+    "isDisabled": false,
+    "isVerified": true,
+    "passwordHash": "GsE4K13DwY0JasuCCo8uYgIiLA521NW2Pi+XQoglTbvr2bRc5Z9VDV+Rqli0Llv5+yFpzK6aZ6RBfbw43R6C0w==",
+    "passwordSalt": "p44c5bfzrIEM83AfVOlw/g==",
+    "passwordAlgo": "scrypt",
+    "passwordIter": 1,
+    "password": "Beytullah98."
+  },
+  {
+    "id": "6dd9ba38-2fe7-4ddb-84ee-2c62a49acde0",
+    "email": "beytullahblut@outlook.com.tr",
+    "name": "Beytullah BULUT",
+    "createdAt": "2025-09-22T08:41:46.653Z",
+    "role": "user",
+    "isDisabled": true,
+    "isVerified": true,
+    "password": "Test1234!"
+  },
+  {
+    "id": "b982fe1f-178a-4f6c-a180-5e759b031cbb",
+    "email": "beytullahbulutt@icloud.com",
+    "name": "Beytullah BULUT",
+    "createdAt": "2025-09-22T08:42:59.544Z",
+    "role": "user",
+    "isDisabled": true,
+    "isVerified": true,
+    "password": "Test1234!"
+  },
+  {
+    "id": "09378b0c-79f3-4541-b443-67d071673026",
+    "email": "bu.ozturk@icloud.com",
+    "name": "Burak ÖZTÜRK",
+    "role": "user",
+    "isDisabled": true,
+    "isVerified": true,
+    "createdAt": "2025-10-27T10:42:03.530Z",
+    "password": "Bglocal2@",
+    "passwordHash": "R7OTTFtveRaAGcmSOEP4Zsl0EMcoRkHadsfpfEGQZobgLgQQnL2kG9DzjNJSbxd9mgGl3V+FSSRjmU6sJ9hXYA==",
+    "passwordSalt": "z+SP3CbA6tm98krjhmMtbA==",
+    "passwordAlgo": "scrypt",
+    "passwordIter": 1,
+    "isAnonymous": true
+  }
+]
